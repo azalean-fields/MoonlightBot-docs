@@ -18,7 +18,10 @@ Additional options are not necessary for a command to work, but may be used to p
 
 ### Durations
 
-Durations are a combination of numbers and letters representing units of time; for example, `4w5h` means 4 weeks and 5 hours.
+Durations are a combination of numbers and letters representing units of time; for example, `4w5h` means 4 weeks and 5 hours. 
+
+Another supported method of providing a duration is inserting a timestamp that dictates either an ending for an action or a time boundary. Discord offers a built-in way to do this by typing `@time` in the duration box, ex. `/temprole duration: <@time:November 12 at 3:42pm>` or `/infractions search before: <@time:November 1st at 12:00pm>`
+
 Below, you can see a table with all supported abbreviations.
 
 | Duration                   | Supported Abbrevations          |
@@ -37,6 +40,10 @@ If no unit is specified, the bot will default to milliseconds.
 ![An example of duration options.](</.gitbook/assets/OptionTypes1.png>)
 
 ![Another example of duration options. As shown, you can extend the length of an active temporary role by specifying the same user and role, followed by the time to be added.](</.gitbook/assets/OptionTypes2.png>)
+
+![An example of @time being used inside a command. Discord supports providing the timestamp in any of the formats seen above the chat box.](</.gitbook/assets/OptionTypes3.png>)
+
+![An animated example of @time being used inside a command.](</.gitbook/assets/DurationTimeExample.gif>)
 
 ### Entity IDs
 

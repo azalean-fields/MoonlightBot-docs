@@ -70,6 +70,7 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 * I_mundercover
 * Kone
 * [m]
+* NXTCY
 * Oshi Tamtam
 * Sylverescent
 
