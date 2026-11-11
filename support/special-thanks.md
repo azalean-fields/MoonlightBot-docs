@@ -68,6 +68,7 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 * Barney2goose
 * Cloud
 * I_mundercover
+* JSP
 * Kone
 * [m]
 * NXTCY

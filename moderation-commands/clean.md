@@ -36,15 +36,18 @@ For more information on editing permission requirements for specific users/roles
 * `starts-with`: Delete messages that start with this value
 * `ends-with`: Delete messages that end with this value
 * `contains`: Delete messages that contain this value
-* `forwarded`: Whether or not to delete forwarded messages. If this option is left blank, the bot will not differentiate between forwarded and regular messages. If set to false, the bot will not delete forwarded messages, but if set to true, the bot will only delete forwarded messages
-* `poll`: Whether or not to delete polls. This uses the same syntax and works the same way as the `forwarded` option
-* `embeds`: Whether or not to delete messages containing embeds. This uses the same syntax and works the same way as the `forwarded` option
-* `attachments`: Whether or not to delete messages containing attachments. This uses the same syntax and works the same way as the `forwarded` option
-* `bots`: Whether or not to delete messages sent by bots. This uses the same syntax and works the same way as the `forwarded` option
-* `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages. This uses the same syntax and works the same way as the `forwarded` option
-* `voice`: Whether or not to delete voice messages. This uses the same syntax and works the same way as the `forwarded` option
-* `with-thread`: Whether or not to delete messages with threads under them. This uses the same syntax and works the same way as the `forwarded` option
-* `stickers`: Whether or not to delete messages with stickers. This uses the same syntax and works the same way as the `forwarded` option
+* `forwarded`: Whether or not to delete forwarded messages. 
+    - If this option is left blank, the bot will not differentiate between forwarded and regular messages. 
+    - If set to false, the bot will not delete forwarded messages.
+    - if set to true, the bot will only delete forwarded messages.
+* `poll`: Whether or not to delete polls. This works in the same way as the `forwarded` option
+* `embeds`: Whether or not to delete messages containing embeds. This works in the same way as the `forwarded` option
+* `attachments`: Whether or not to delete messages containing attachments. This works in the same way as the `forwarded` option
+* `bots`: Whether or not to delete messages sent by bots. This works in the same way as the `forwarded` option
+* `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages. This works in the same way as the `forwarded` option
+* `voice`: Whether or not to delete voice messages. This works the same way as the `forwarded` option
+* `with-thread`: Whether or not to delete messages with threads under them. This works in the same way as the `forwarded` option
+* `stickers`: Whether or not to delete messages with stickers. This works in the same way as the `forwarded` option
 * `preserve-pins`: If true, pinned messages will not be deleted
 * `no-trace`: If true, the confirmation message will only be visible to you
 

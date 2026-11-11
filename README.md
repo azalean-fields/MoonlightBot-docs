@@ -71,7 +71,7 @@ MoonlightBot offers highly granular logging, and can log all kinds of actions to
 
 where `LOG-CHANNEL` is the channel you want logs posted to.
 
-An editor will open where you can enter items or categories from the [list of log names](advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, Members`
+An editor will open with a selectable list of categories, each with its own drop-down menu of loggable items. For a glossary of everything that can be logged, see the [list of log names](advanced/list-of-log-names.md). You can also select to log everything in one category, or click the button in the top right to log everything.
 
 <figure><img src=".gitbook/assets/LogEditor.png" alt="A screenshot showing the modal to edit event types logged in a channel" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>The modal to edit logs. This will soon be replaced with an innovative system</p></figcaption></figure>
 
